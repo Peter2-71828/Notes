@@ -1,4 +1,4 @@
-var list = require('./NoteList.js');
+var list = require('./models/NoteList.js');
 
 list.addNote('test', 'this is a test note');
 
