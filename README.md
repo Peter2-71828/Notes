@@ -31,7 +31,11 @@ Project working with JavaScript --> week 7 --> Makers Onsite
 
 ## Launch
 
-*To be completed*
+  ## Running Tests
+  
+    node ./tests/NoteList_test.js
+
+    node ./tests/Note_test.js
 
 ## Sources
 
