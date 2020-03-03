@@ -1,5 +1,10 @@
 var note = require('./Note.js')
 
-if (typeof note.first20 === 'function') {
-  console.log('pass')}
-else {console.log('fail')};
+isWorking('first20 Method exists', typeof note.first20 === 'function')
+
+// Conditional Comparison Method
+function isWorking(testName, condition) {
+  if (condition) {
+    console.log(testName + ': ' + 'pass')}
+  else {console.log(testName + ': '+ 'fail')};
+};

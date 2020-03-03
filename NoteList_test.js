@@ -1,9 +1,12 @@
 var list = require('./NoteList.js');
 
-if (typeof list.addNote === 'function') {
-  console.log('pass')}
-else {console.log('fail')};
+isWorking('addNote method exists', typeof list.viewNote === 'function')
 
-if (typeof list.viewNote === 'function') {
-  console.log('pass')}
-else {console.log('fail')};
+isWorking('viewNote method exists', typeof list.viewNote === 'function')
+
+// Conditional Comparison Method
+function isWorking(testName, condition) {
+  if (condition) {
+    console.log(testName + ': ' + 'pass')}
+  else {console.log(testName + ': '+ 'fail')};
+};
