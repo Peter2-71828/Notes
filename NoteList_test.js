@@ -4,6 +4,6 @@ if (typeof NoteList === 'object') {
   console.log('pass')}
 else {console.log('fail')};
 
-if (typeof List.viewNote === 'function') {
+if (typeof list.viewNote === 'function') {
   console.log('pass')}
 else {console.log('fail')};

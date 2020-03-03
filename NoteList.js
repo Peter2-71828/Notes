@@ -6,4 +6,4 @@ NoteList.prototype.viewNote = function() {
 
 };
 
-List = new NoteList()
+list = new NoteList()
