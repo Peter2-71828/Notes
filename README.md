@@ -1,6 +1,8 @@
 # Notes
 
-Project working with JavaScript --> week 7 --> Makers Onsite
+  • Week 7 - Makers Onsite  
+  • Create single page Web app  
+  • No libraries or frameworks permitted
 
 ## Table of Contents
 
@@ -32,7 +34,7 @@ Project working with JavaScript --> week 7 --> Makers Onsite
 ## Launch
 
   ## Running Tests
-  
+
     node ./tests/NoteList_test.js
 
     node ./tests/Note_test.js
