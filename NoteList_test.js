@@ -1,8 +1,7 @@
 var list = require('./NoteList.js');
 
-isWorking('addNote method exists', typeof list.addNote === 'function')
-
 list.addNote('test', 'this is a test note');
+
 isWorking('addNote method should add note to list', list.viewNotes() == 'test')
 
 isWorking('viewNote method exists', typeof list.viewNotes === 'function')
