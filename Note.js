@@ -1,11 +1,10 @@
-function Note() {
-
+function Note(noteName, note) {
+  this.name = noteName;
+  this.note = note;
 };
 
 Note.prototype.first20 = function() {
 
 };
 
-var note = new Note();
-
-module.exports = note; 
+module.exports = Note;
