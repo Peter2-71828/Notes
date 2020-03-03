@@ -1,3 +1,4 @@
+
 function NoteList() {
 
 };
@@ -6,4 +7,6 @@ NoteList.prototype.viewNote = function() {
 
 };
 
-list = new NoteList()
+var list = new NoteList();
+
+module.exports = list;

@@ -1,6 +1,6 @@
-var NoteList = require('./NoteList.js');
+var list = require('./NoteList.js');
 
-if (typeof NoteList === 'object') {
+if (typeof list === 'object') {
   console.log('pass')}
 else {console.log('fail')};
 
