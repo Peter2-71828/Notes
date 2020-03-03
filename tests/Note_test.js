@@ -1,4 +1,4 @@
-var Note = require('./models/Note.js')
+var Note = require('../models/Note.js')
 
 note = new Note('test', 'this is a test it needs to be longer than 20 characters');
 
