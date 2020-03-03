@@ -6,7 +6,6 @@ isWorking('viewNote method exists', typeof list.viewNote === 'function')
 
 // Conditional Comparison Method
 function isWorking(testName, condition) {
-  if (condition) {
-    console.log(testName + ': ' + 'pass')}
+  if (condition) {console.log(testName + ': ' + 'pass')}
   else {console.log(testName + ': '+ 'fail')};
 };
